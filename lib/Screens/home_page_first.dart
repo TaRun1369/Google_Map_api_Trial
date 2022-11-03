@@ -22,14 +22,12 @@ class Album {
   final String? description ;
   final String? url;
   final String urlToImage;
-  final String? publishedAt;
 
   const Album({
     this.title,
     this.description,
     this.url,
     required this.urlToImage,
-    this.publishedAt,
   });
 
   factory Album.fromJson(Map<String, dynamic> json) {
@@ -38,7 +36,6 @@ class Album {
       description: json["articles"][0]["description"],
       url: json["articles"][0]["url"],
       urlToImage: json["articles"][0]["urlToImage"],
-      publishedAt: json["articles"][0]["publishedAt"],
     );
   }
 }
