@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658731332516",
+    "project_id": "mapsapi-f491c",
+    "storage_bucket": "mapsapi-f491c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658731332516:android:e3fd2cf708f011a2158731",
+        "android_client_info": {
+          "package_name": "com.example.screens_for_touristapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658731332516-vqgi7ccmps7kvtm5ph4fkalnls1dr3p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0gvhZUvz2SJmbpzntLf7wnDNsrepgawQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658731332516-vqgi7ccmps7kvtm5ph4fkalnls1dr3p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
